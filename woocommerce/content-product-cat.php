@@ -42,7 +42,7 @@ $woocommerce_loop['loop']++;
 
 // Extra post classes
 $classes = array();
-$classes[] = "col-md-4 col-lg-4 test";
+$classes[] = "col-md-4 col-lg-4 ";
 if (0 === ($woocommerce_loop['loop'] - 1) % $woocommerce_loop['columns'] || 1 === $woocommerce_loop['columns']) {
 	$classes[] = 'first';
 }
@@ -50,7 +50,7 @@ if (0 === $woocommerce_loop['loop'] % $woocommerce_loop['columns']) {
 	$classes[] = 'last';
 }
 ?>
-<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12 test-li">
+<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
 	<?php
 	/**

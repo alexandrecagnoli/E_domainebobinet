@@ -50,7 +50,7 @@ if (0 === $woocommerce_loop['loop'] % $woocommerce_loop['columns']) {
 	$classes[] = 'last';
 }
 ?>
-<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12 test-content-product">
+<li class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 
 	<?php
 	/**

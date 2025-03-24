@@ -798,7 +798,10 @@ margin-left:5px;
 
 .post-type-archive-product .woocommerce-products-header__title.page-title,
 .post-type-archive-product #news-menu,
-.post-type-archive-product #news-sidebar{
+.post-type-archive-product #news-sidebar,
+.tax-product_cat .woocommerce-products-header__title.page-title,
+.tax-product_cat #news-menu,
+.tax-product_cat #news-sidebar{
     display:none;
 }
 
@@ -1198,7 +1201,8 @@ font-size:0.8em;
 
 .woocommerce.post-type-archive-product .container-fluid.main,
 .woocommerce.single-product .container-fluid.main,
-.woocommerce.single-product .container-fluid.main .panel
+.woocommerce.single-product .container-fluid.main .panel,
+.woocommerce.tax-product_cat .container-fluid.main
 {
     background-color:#f9f7f3 ;
 }
