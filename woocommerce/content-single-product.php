@@ -63,7 +63,6 @@ if (post_password_required()) {
 	</div>
 
 	<?php
-	dynamic_sidebar('shop_sidebar');
 	/**
 	 * Hook: woocommerce_after_single_product_summary.
 	 *
